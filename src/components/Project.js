@@ -1,6 +1,6 @@
 import React from 'react';
 
-function NavTabs({ currentPage, handlePageChange }) {
+function Project ({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">
      <li className="nav-item">
@@ -43,4 +43,4 @@ function NavTabs({ currentPage, handlePageChange }) {
   );
 }
 
-export default NavTabs;
+export default Project;

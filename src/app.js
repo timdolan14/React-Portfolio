@@ -1,6 +1,6 @@
 import React from "react";
-import Container from './components/Container';
+import Navtab from './components/NavTab';
 
-const App = () => <Container />;
+const App = () => <Navtab />;
 
 export default App;
