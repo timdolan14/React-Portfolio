@@ -6,7 +6,7 @@ export default function Home() {
         <div>
             <div class="Intro">
                 <div class="pro-pic">
-                <img src={propic} alt="profile photo"></img>
+                <img src={propic} alt="propic"></img>
                 </div>
                 <h2>Tim Dolan - Aspiring Full Stack Developer</h2>
                 <h3>Alittle Bit About Me</h3>
