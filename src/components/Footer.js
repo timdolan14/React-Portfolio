@@ -3,8 +3,8 @@ import React from 'react';
 function Footer() {
   return (
     <footer className="footer">
-      <h4>Made by Tim Dolan</h4>
       <p>
+      <p>Made by Tim Dolan</p>
         <ul>
           <a href="https://www.linkedin.com/in/timothy-dolan-kb1417433214/">
             LinkedIn</a>

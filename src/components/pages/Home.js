@@ -6,16 +6,16 @@ export default function Home() {
         <div>
             <div class="Intro">
                 <div class="pro-pic">
-                <img src={propic} alt="propic"></img>
+                    <center><img src={propic} alt="propic"></img></center>
                 </div>
                 <h2>Tim Dolan - Aspiring Full Stack Developer</h2>
-                <h3>Alittle Bit About Me</h3>
+                <h3>About Me</h3>
                 <p>
-                    My name is Tim Dolan. Born on Long Island, but currently reside in New York City. An experienced Consultant with expertise in strategy and operations, complemented by a strong computer science background. Skilled in providing guidance and direction for business challenges in supply chain, logistics, procurement, and general operations. Always open to learn and developing new skills.
+                    My name is Tim Dolan. Born on Long Island, but currently reside in New York City. An experienced Consultant with expertise in strategy and operations, complemented by a strong computer science background. Always open to learn and developing new skills. Began my coding journey in March 2023.
                 </p>
                 <h3>Skills</h3>
                 <p>
-                    Proficient in programming languages such as: HTML, CSS, JavaScript, SQL, React, MERN Stack, GraphQL. Experience in full stack web development, data analysis, software development, Microsoft Office.
+                    HTML, CSS, JavaScript, SQL, React, MERN Stack, GraphQL. Experience in full stack web development, data analysis, software development, Microsoft Office.
                 </p>
                 <h3>Interests</h3>
                 <p>
