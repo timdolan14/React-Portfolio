@@ -4,8 +4,9 @@ import resume from '../../photos/propic.png'
 export default function Resume () {
     return (
         <div className='res-page'>
-        <a href={resume} Download={resume} class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Download My Resume</a>
-        <p>For more information on my background, please down my resume and feel free to reach out.</p>
+            <h3>My Resume</h3>
+            <p>Feel to check out my resume below!</p>
+        <a href={resume} Download={resume} class="res-btn btn btn-primary btn-lg active" role="button" aria-pressed="true" id='res-btn'>Download My Resume</a>
         </div>
     );
 }

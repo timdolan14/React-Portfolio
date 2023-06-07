@@ -25,12 +25,14 @@ footer {
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-shadow: 1px 1px 2px black;
 }
+
 .pro-pic img {
     width: 15%;
     height: 30;
     border-radius: 25px; 
     border: 1px solid black;
     margin: 1%;
+    filter: drop-shadow(0 0 0.75rem black);
 }
 
 .Intro h2,
@@ -59,7 +61,10 @@ footer {
     text-align: center;
 }
 
-.my-ci h3 {
+.my-ci h3,
+.port-page h3,
+.res-page h3
+ {
     color: green;
 }
 
@@ -71,23 +76,31 @@ footer {
 .form-name,
 .form-email,
 .form-message {
-    color: green;
+    color: black;
     font-size: 20px;
 }
 
 form  {
     padding: 2% 2% 0% 2%;
     border: black solid;
-    box-shadow: 7px 7px;
 }
 
 .form-submit-btn {
     padding-top: 10px;
+    color: green;
 }
 
+.res-page {
+    text-align: center;
+}
 
+.res-page h3 {
+    text-decoration: underline;
+}
 
-
+.res-page p {
+   font-size: 20px;
+}
 
 footer {
     margin-top: 10%;
