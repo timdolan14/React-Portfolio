@@ -5,6 +5,13 @@
     background-color: rgba(243, 242, 242, 0.892);
 } 
 
+.contact-page,
+.port-page,
+.res-page,
+footer {
+    padding: 10px 0px 0px 10px;
+}
+
 .header h1 {
     font-size: 65px;
     color: green;
@@ -13,8 +20,16 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-shadow: 1px 1px 2px black;
 }
+.pro-pic img {
+    width: 15%;
+    height: 30;
+    border-radius: 25px; 
+    border: 1px solid black;
+    margin: 1%;
+}
 
-.Intro h2 {
+.Intro h2,
+.Intro p {
     color: black;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
@@ -27,21 +42,34 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-.Intro p {
-    color: black;
-    text-align: center;
+.my-ci h3 {
+    color: green;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-.pro-pic img {
-    width: 15%;
-    height: 30;
-    border-radius: 25px; 
-    border: 1px solid black;
-    margin: 1%;
+.my-ci p {
+    color: black;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
+.form-name,
+.form-email,
+.form-message {
+    color: green;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
 
+form  {
+    padding: 2% 2% 0% 2%;
+    border: black solid;
+    box-shadow: 7px 7px;
+}
+
+.form-submit-btn {
+    padding-top: 10px;
+}
 
 
 

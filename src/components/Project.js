@@ -27,7 +27,7 @@ function Project ({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange('Contact')}
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
-          Contact
+          Contact Me
         </a>
       </li>
       <li className="nav-item">

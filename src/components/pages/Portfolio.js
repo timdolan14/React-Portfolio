@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Portfolio () {
     return (
-        <div>
+        <div className='port-page'>
             <h1>My Portfolio</h1>
             <section class="Work">
                 <section id="Work" class="Work-Objects">

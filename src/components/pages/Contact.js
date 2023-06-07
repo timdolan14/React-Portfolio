@@ -2,16 +2,15 @@ import React from 'react';
 
 export default function Contact() {
     return (
-        <section>
-            <div className="my-contact-info">
-                <p>Want to get into contact?</p>
+        <section className='contact-page'>
+            <div className="my-ci">
+                <h3>Looking to get in contact?</h3>
                 <p>
-                    <ul>Mobile: (516)304-9241</ul>
-                    <ul>Email: timmydolan14@gmail.com</ul>
-                    <p>Or send me a message below!</p>
+                    <ul>Call me: (516) 304-9241</ul>
+                    <ul>Email me: timmydolan14@gmail.com</ul>
+                    <ul>Or send me a message below!</ul>
                 </p>
             </div>
-
             <div>
                 <form>
                     <div className="form-name mb-3">
@@ -26,10 +25,10 @@ export default function Contact() {
                         <label htmlFor="messageFormControlInput">Message</label>
                         <textarea className="form-control" id="messageFormControlInput" rows="3"></textarea>
                     </div>
-                </form>
-                <div className="form-submit-btn mb-3">
+                    <div className="form-submit-btn mb-3">
                     <button type="submit" className="btn btn-primary">Submit</button>
                 </div>
+                </form>
             </div >
         </section>
     );
