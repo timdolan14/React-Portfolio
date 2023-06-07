@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgba(243, 242, 242, 0.892);
+    background-color: rgb(229, 230, 229);
 } 
 
 .contact-page,
@@ -12,8 +12,13 @@ footer {
     padding: 10px 0px 0px 10px;
 }
 
+.nav-item {
+    font-size: 15px;
+    color: black;
+}
+
 .header h1 {
-    font-size: 65px;
+    font-size: 55px;
     color: green;
     text-align: center;
     margin: 1%;
@@ -32,6 +37,19 @@ footer {
 .Intro p {
     color: black;
     text-align: center;
+}
+
+.Intro h2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.Intro p,
+.Intro h3,
+.my-ci h3, 
+.my-ci p,
+.form-name,
+.form-email,
+.form-message {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
@@ -39,18 +57,15 @@ footer {
     color: green;
     text-decoration: underline;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .my-ci h3 {
     color: green;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .my-ci p {
     color: black;
     font-size: 17px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .form-name,
@@ -58,7 +73,6 @@ footer {
 .form-message {
     color: green;
     font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 form  {
