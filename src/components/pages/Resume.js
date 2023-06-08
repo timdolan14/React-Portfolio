@@ -8,19 +8,20 @@ export default function Resume() {
             <p>Feel to check out my resume below!</p>
             <a href={resume} Download={resume} class="res-btn btn btn-primary btn-lg active" role="button" aria-pressed="true" id='res-btn'>Download My Resume</a>
             <div className='profs'>
-                <h4>Front End</h4>
+                <h4>Front End Proficiencies</h4>
                 <p>
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>React</li>
                 </p>
-                <h4>Back End</h4>
+                <h4>Back End Proficiencies</h4>
                 <p>
                     <li>JavaScript</li>
                     <li>SQL</li>
                     <li>React</li>
                     <li>MERN Stack</li>
-                    <li>GraphQL</li>              </p>
+                    <li>GraphQL</li>
+                </p>
             </div>
         </div>
     );
