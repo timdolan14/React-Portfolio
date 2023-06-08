@@ -4,7 +4,7 @@ export default function Contact() {
     return (
         <section className='contact-page'>
             <div className="my-ci">
-                <h3>Looking to get in contact?</h3>
+                <h3>Looking to Get in Contact?</h3>
                 <p>
                     <ul>Call me: (516) 304-9241</ul>
                     <ul>Email me: timmydolan14@gmail.com</ul>
