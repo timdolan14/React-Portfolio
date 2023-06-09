@@ -1,7 +1,7 @@
 import React from "react";
-import Navtab from './components/NavTab';
+import Site from './components/Site';
 import './style.css'
 
-const App = () => <Navtab />;
+const App = () => <Site />;
 
 export default App;

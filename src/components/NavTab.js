@@ -1,36 +1,46 @@
-import React, { useState } from 'react';
-import Project from './Project';
-import Home from './pages/Home';
-import Contact from './pages/Contact';
-import Portfolio from './pages/Portfolio';
-import Resume from './pages/Resume';
-import Footer from './Footer';
-import Header from './Header';
+import React from 'react';
 
-export default function Navtab () {
-    const [currentPage, setCurrentPage] = useState('Home');
-
-    const renderPage = () => {
-        if (currentPage === 'Home') {
-          return <Home />;
-        }
-        if (currentPage === 'Resume') {
-          return <Resume />;
-        }
-        if (currentPage === 'Portfolio') {
-          return <Portfolio />;
-        }
-        return <Contact />;
-      };
-
-      const handlePageChange = (page) => setCurrentPage(page);
-
-      return (
-        <div>
-          <Header></Header>
-          <Project currentPage={currentPage} handlePageChange={handlePageChange} />
-          {renderPage()}
-          <Footer></Footer>
-        </div>
-      );
+function Project ({ currentPage, handlePageChange }) {
+  return (
+    <ul className="nav nav-pills nav-justified">
+     <li className="nav-item">
+        <a
+          href="#Home"
+          onClick={() => handlePageChange('Home')}
+          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+        >
+          Home
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#portfolio"
+          onClick={() => handlePageChange('Portfolio')}
+          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+        >
+          Portfolio
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#contact"
+          onClick={() => handlePageChange('Contact')}
+          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+        >
+          Contact Me
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#resume"
+          onClick={() => handlePageChange('Resume')}
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+        >
+          Resume
+        </a>
+      </li>
+    </ul>
+  );
 }
+
+export default Project;

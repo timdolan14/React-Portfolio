@@ -11,10 +11,10 @@ function Footer() {
           </a>
         </ul>
         <ul>
-          <a href="https://github.com/timdolan14"><BsTwitter /></a>
+          <a href="https://github.com/timdolan14"><BsGithub /></a>
         </ul>
         <ul>
-          <a href="https://twitter.com/timmydolan14"><BsGithub /></a>
+          <a href="https://twitter.com/timmydolan14"><BsTwitter /></a>
         </ul>
       </p>
     </footer>
