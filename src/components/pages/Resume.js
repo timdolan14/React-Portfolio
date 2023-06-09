@@ -12,6 +12,7 @@ export default function Resume() {
                 <p>
                     <li>HTML</li>
                     <li>CSS</li>
+                    <li>Bootstrap</li>
                     <li>React</li>
                 </p>
                 <h4>Back End Proficiencies</h4>
@@ -21,6 +22,10 @@ export default function Resume() {
                     <li>React</li>
                     <li>MERN Stack</li>
                     <li>GraphQL</li>
+                    <li>Sequelize</li>
+                    <li>Mongoose</li>
+                    <li>MongoDB</li>
+                    <li>State</li>              
                 </p>
             </div>
         </div>

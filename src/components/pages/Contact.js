@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { validateEmail } from '../utils/helpers'
 
 var regTest = /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
@@ -21,7 +20,7 @@ export default function Contact() {
         }
 
         if (inputType === 'text') {
-            if (inputValue == '') {
+            if (inputValue === '') {
                 setErrorMessage('Message is required!')
                 return setText(inputValue);
             } else setErrorMessage('Thank you for the message!')
