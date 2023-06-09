@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { AiFillPhone, AiFillEdit } from "react-icons/ai";
+import { MdEmail } from "react-icons/md";
 
 var regTest = /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
@@ -32,9 +34,9 @@ export default function Contact() {
             <div className="my-ci">
                 <h3>Looking to Get in Contact?</h3>
                 <p>
-                    <ul>Call me: (516) 304-9241</ul>
-                    <ul>Email me: timmydolan14@gmail.com</ul>
-                    <ul>Or send me a message below!</ul>
+                    <ul><AiFillPhone /> (516) 304-9241</ul>
+                    <ul><MdEmail /> timmydolan14@gmail.com</ul>
+                    <ul><AiFillEdit /> Or send me a message below!</ul>
                 </p>
             </div>
             <div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import resume from '../../photos/propic.png'
+import { HiArrowSmRight } from "react-icons/hi";
 
 export default function Resume() {
     return (
@@ -8,25 +9,31 @@ export default function Resume() {
             <p>Feel to check out my resume below!</p>
             <a href={resume} Download={resume} class="res-btn btn btn-primary btn-lg active" role="button" aria-pressed="true" id='res-btn'>Download My Resume</a>
             <div className='profs'>
+            <div class="flex-container">
+                <div class="flex-child green">
                 <h4>Front End Proficiencies</h4>
                 <p>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Bootstrap</li>
-                    <li>React</li>
+                    <ul><HiArrowSmRight/>HTML</ul>
+                    <ul><HiArrowSmRight/>CSS</ul>
+                    <ul><HiArrowSmRight/>Bootstrap</ul>
+                    <ul><HiArrowSmRight/>React</ul>
                 </p>
+                </div>
+                <div class="flex-child green">
                 <h4>Back End Proficiencies</h4>
                 <p>
-                    <li>JavaScript</li>
-                    <li>SQL</li>
-                    <li>React</li>
-                    <li>MERN Stack</li>
-                    <li>GraphQL</li>
-                    <li>Sequelize</li>
-                    <li>Mongoose</li>
-                    <li>MongoDB</li>
-                    <li>State</li>              
+                    <ul><HiArrowSmRight/>JavaScript</ul>
+                    <ul><HiArrowSmRight/>SQL</ul>
+                    <ul><HiArrowSmRight/>React</ul>
+                    <ul><HiArrowSmRight/>MERN Stack</ul>
+                    <ul><HiArrowSmRight/>GraphQL</ul>
+                    <ul><HiArrowSmRight/>Sequelize</ul>
+                    <ul><HiArrowSmRight/>Mongoose</ul>
+                    <ul><HiArrowSmRight/>MongoDB</ul>
+                    <ul><HiArrowSmRight/>State</ul>
                 </p>
+                </div>
+                </div>
             </div>
         </div>
     );
