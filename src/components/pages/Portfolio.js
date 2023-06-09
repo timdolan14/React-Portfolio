@@ -9,7 +9,7 @@ import Planner from '../../photos/DP.png';
 export default function Portfolio() {
     return (
         <div className='port-page'>
-            <h3>My Portfolio</h3>
+            <h2>My Portfolio</h2>
             <section class="Work">
                 <section id="Work" class="Work-Objects">
                     <div class="imgGrid">

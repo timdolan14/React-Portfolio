@@ -32,7 +32,7 @@ export default function Contact() {
     return (
         <section className='contact-page'>
             <div className="my-ci">
-                <h3>Looking to Get in Contact?</h3>
+                <h2>Looking to Get in Contact?</h2>
                 <p>
                     <ul><AiFillPhone /> (516) 304-9241</ul>
                     <ul><MdEmail /> timmydolan14@gmail.com</ul>

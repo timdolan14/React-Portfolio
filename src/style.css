@@ -19,7 +19,7 @@ footer {
 
 .header h1 {
     font-size: 55px;
-    color: green;
+    color: darkgreen;
     text-align: center;
     text-shadow: 1px 1px 2px black;
     background-color: rgb(205, 201, 201);
@@ -35,8 +35,11 @@ footer {
     filter: drop-shadow(0 0 0.75rem black);
 }
 
+.Intro h2 {
+    padding-top: 10%,
+}
+
 .Intro h1,
-.Intro h2,
 .Intro p {
     color: black;
     text-align: center;
@@ -44,7 +47,6 @@ footer {
 
 .Intro p,
 .Intro h3,
-.Intro h2,
 .my-ci h3,
 .my-ci p,
 .form-name,
@@ -81,14 +83,14 @@ footer {
     font-size: 20px;
 }
 
-.my-ci h3,
-.port-page h3,
-.res-page h3,
-.Intro h3 {
-    color: green;
+.my-ci h2,
+.port-page h2,
+.res-page h2,
+.Intro h2 {
+    color: darkgreen;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding-bottom: 10px;
+    padding-bottom: 7px;
 }
 
 .my-ci p {
