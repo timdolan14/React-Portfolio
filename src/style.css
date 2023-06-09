@@ -40,10 +40,10 @@ footer {
     padding-top: 10%,
 }
 
-.Intro h1,
 .Intro p {
     color: black;
     text-align: center;
+    margin-top: 1%;
 }
 
 .Intro p,
@@ -92,6 +92,7 @@ footer {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-bottom: 7px;
+    font-size: 32px;
 }
 
 .my-ci p {
@@ -142,7 +143,7 @@ form input {
 
 .profs {
     text-align: left;
-    padding-top: 5%;
+    padding-top: 3%;
 }
 
 .profs h4 {
@@ -167,7 +168,7 @@ form input {
 .flex-child {
     flex: 1;
     border: 2px solid black;
-    filter: drop-shadow(0 0 0.25rem black);
+    filter: drop-shadow(0 0 0.17rem black);
 }  
 
 .flex-child:first-child {
