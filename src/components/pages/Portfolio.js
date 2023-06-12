@@ -5,6 +5,9 @@ import RR from '../../photos/RR Screenshot.jpeg';
 import PW from '../../photos/pw.png';
 import FS from '../../photos/full-snack.png';
 import Planner from '../../photos/DP.png';
+import Weather from '../../photos/weather-app.png';
+import TE from '../../photos/txt-ed.png';
+
 
 export default function Portfolio() {
     return (
@@ -37,6 +40,20 @@ export default function Portfolio() {
                             <img src={Planner} alt="WDS" />
                             <div class="imgInfoContainer">
                                 <h4 id="proj-4">Day Planner <a href="https://timdolan14.github.io/Day-Planner/"><CgWebsite /></a> <a href="https://github.com/timdolan14/Day-Planner"><BsGithub /> </a> </h4>
+                                <p></p>
+                            </div>
+                        </div>
+                           <div id="proj-5">
+                            <img src={Weather} alt="WA" />
+                            <div class="imgInfoContainer">
+                                <h4 id="proj-5">Weather App <a href="https://timdolan14.github.io/Weather-App/"><CgWebsite /></a> <a href="https://github.com/timdolan14/Weather-App"><BsGithub /> </a> </h4>
+                                <p></p>
+                            </div>
+                        </div>
+                           <div id="proj-6">
+                            <img src={TE} alt="TE" />
+                            <div class="imgInfoContainer">
+                                <h4 id="proj-6">Text Editor <a href="https://td-the-text-editor.herokuapp.com/"><CgWebsite /></a> <a href="https://github.com/timdolan14/Text-Editor"><BsGithub /> </a> </h4>
                                 <p></p>
                             </div>
                         </div>
