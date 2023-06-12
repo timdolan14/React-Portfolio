@@ -57,10 +57,10 @@ export default function Contact() {
                         <button type="submit" className="btn btn-primary">Submit</button>
                     </div>
                     {errorMessage && (
-                    <div>
-                        <p className="error-text">{errorMessage}</p>
-                    </div>
-                )}
+                        <div>
+                            <p className="error-text">{errorMessage}</p>
+                        </div>
+                    )}
                 </form>
             </div>
         </section>

@@ -34,7 +34,7 @@ export default function Portfolio() {
                             </div>
                         </div>
                         <div id="proj-4">
-                            <img src={Planner}alt="WDS" />
+                            <img src={Planner} alt="WDS" />
                             <div class="imgInfoContainer">
                                 <h4 id="proj-4">Day Planner <a href="https://timdolan14.github.io/Day-Planner/"><CgWebsite /></a> <a href="https://github.com/timdolan14/Day-Planner"><BsGithub /> </a> </h4>
                                 <p></p>
