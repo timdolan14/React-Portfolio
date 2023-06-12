@@ -1,6 +1,7 @@
 # React Portfolio
 
 ## Deployed Portfolio
+https://timdolan14.github.io/React-Portfolio/
 
 ## Github Repo
 https://github.com/timdolan14/React-Portfolio
