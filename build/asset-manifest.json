@@ -1,10 +1,19 @@
 {
   "files": {
-    "main.js": "/static/js/main.dd974add.js",
-    "index.html": "/index.html",
-    "main.dd974add.js.map": "/static/js/main.dd974add.js.map"
+    "main.css": "/React-Portfolio/static/css/main.7dd61997.css",
+    "main.js": "/React-Portfolio/static/js/main.1344626c.js",
+    "static/media/full-snack.png": "/React-Portfolio/static/media/full-snack.e465eb863833656b3c21.png",
+    "static/media/RR Screenshot.jpeg": "/React-Portfolio/static/media/RR Screenshot.5372d750b9106542acd5.jpeg",
+    "static/media/propic.png": "/React-Portfolio/static/media/propic.be8d3d903f9e7d4bef92.png",
+    "static/media/DP.png": "/React-Portfolio/static/media/DP.534d7fb1c80fb8dea70b.png",
+    "static/media/Tim Dolan 2023.jpg": "/React-Portfolio/static/media/Tim Dolan 2023.3ffb4d2e7381eb03372c.jpg",
+    "static/media/pw.png": "/React-Portfolio/static/media/pw.c5c48197a5ae175d8ca8.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.7dd61997.css.map": "/React-Portfolio/static/css/main.7dd61997.css.map",
+    "main.1344626c.js.map": "/React-Portfolio/static/js/main.1344626c.js.map"
   },
   "entrypoints": [
-    "static/js/main.dd974add.js"
+    "static/css/main.7dd61997.css",
+    "static/js/main.1344626c.js"
   ]
 }

@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://timdolan14.github.io/react-portfolio",
+  "homepage": "https://timdolan14.github.io/React-Portfolio",
   "description": "## Deployed Portfolio",
   "main": "index.js",
   "dependencies": {
