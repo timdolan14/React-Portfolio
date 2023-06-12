@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Project ({ currentPage, handlePageChange }) {
+function Project({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-pills nav-justified">
-     <li className="nav-item">
+      <li className="nav-item">
         <a
           href="#Home"
           onClick={() => handlePageChange('Home')}
