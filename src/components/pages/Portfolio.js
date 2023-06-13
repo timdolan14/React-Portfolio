@@ -26,7 +26,7 @@ export default function Portfolio() {
                         <div id="proj-2">
                             <img src={FS} alt="FS" />
                             <div class="imgInfoContainer">
-                                <h4 id="proj-4">Full-Snack Wellness App <a href="https://gt-wellness-app.herokuapp.com/"><CgWebsite /></a> <a href="https://github.com/Juebele/Wellness-App"><BsGithub /> </a> </h4>
+                                <h4 id="proj-4">Full-Snack Wellness App <a href="https://gt-wellness-app.herokuapp.com/"><CgWebsite /></a> <a href="https://github.com/timdolan14/Wellness-App"><BsGithub /> </a> </h4>
                                 <p></p>
                             </div>
                         </div>
