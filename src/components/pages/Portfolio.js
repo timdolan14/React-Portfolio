@@ -6,7 +6,7 @@ import PW from '../../photos/pw.png';
 import FS from '../../photos/full-snack.png';
 import Planner from '../../photos/DP.png';
 import Weather from '../../photos/weather-app.png';
-import TE from '../../photos/txt-ed.png';
+import CB from '../../photos/CB.png';
 
 
 export default function Portfolio() {
@@ -51,9 +51,9 @@ export default function Portfolio() {
                             </div>
                         </div>
                            <div id="proj-6">
-                            <img src={TE} alt="TE" />
+                            <img src={CB} alt="CB" />
                             <div class="imgInfoContainer">
-                                <h4 id="proj-6">Text Editor <a href="https://td-the-text-editor.herokuapp.com/"><CgWebsite /></a> <a href="https://github.com/timdolan14/Text-Editor"><BsGithub /> </a> </h4>
+                                <h4 id="proj-6">Chatterbox <a href="https://duck-wrist-cat-8cf5ac6915ff.herokuapp.com/register"><CgWebsite /></a> <a href="https://github.com/timdolan14/Chatterbox"><BsGithub /> </a> </h4>
                                 <p></p>
                             </div>
                         </div>
