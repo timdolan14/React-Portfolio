@@ -33,7 +33,7 @@ export default function Portfolio() {
                         <div id="proj-3">
                             <img src={CB} alt="CB" />
                             <div class="imgInfoContainer">
-                                <h4 id="proj-6">Chatterbox <a href="https://duck-wrist-cat-8cf5ac6915ff.herokuapp.com/register"><CgWebsite /></a> <a href="https://github.com/timdolan14/Chatterbox"><BsGithub /> </a> </h4>
+                                <h4 id="proj-3">Chatterbox <a href="https://duck-wrist-cat-8cf5ac6915ff.herokuapp.com/register"><CgWebsite /></a> <a href="https://github.com/timdolan14/Chatterbox"><BsGithub /> </a> </h4>
                                 <p></p>
                             </div>
                         </div>
@@ -54,7 +54,7 @@ export default function Portfolio() {
                            <div id="proj-6">
                            <img src={PW} alt="PW" />
                             <div class="imgInfoContainer">
-                                <h4 id="proj-3">Random Password Generator <a href="https://timdolan14.github.io/Password_Gen/"><CgWebsite /></a> <a href="https://github.com/timdolan14/Password_Gen"><BsGithub /> </a> </h4>
+                                <h4 id="proj-6">Random Password Generator <a href="https://timdolan14.github.io/Password_Gen/"><CgWebsite /></a> <a href="https://github.com/timdolan14/Password_Gen"><BsGithub /> </a> </h4>
                             </div>
                         </div>
                     </div>
