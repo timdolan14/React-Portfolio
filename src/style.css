@@ -61,8 +61,9 @@ footer {
     flex-wrap: wrap;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     padding-left: 5%;
+    padding-top: 1%;
 }
 
 .imgGrid img {
@@ -72,7 +73,6 @@ footer {
     display: flex;
     opacity: 0.6;
     transition: 0.3s;
-
 }
 
 .imgGrid img:hover {
@@ -183,3 +183,16 @@ footer {
     flex-direction: row;
     font-size: 20px;
 }
+
+/* Media Query for smaller viewports */
+@media screen and (max-width: 600px) {
+    .imgGrid {
+      grid-template-columns: 1fr;
+      padding-left: 0;
+    }
+  
+    .imgGrid img {
+      height: auto;
+      width: 100%;
+    }
+  }
