@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { AiFillPhone, AiFillEdit } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
+import { BsTwitter } from "react-icons/bs";
+import { ImInstagram, ImLocation2 } from "react-icons/im";
+import { FaUserTie } from "react-icons/fa";
 
 var regTest = /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
@@ -34,12 +37,16 @@ export default function Contact() {
             <div className="my-ci">
                 <h2>Looking to Get in Contact?</h2>
                 <p>
+                    <ul><FaUserTie /> Timothy Dolan</ul>
+                    <ul><ImLocation2 /> New York, New York</ul>
                     <ul><AiFillPhone /> (516) 304-9241</ul>
                     <ul><MdEmail /> timmydolan14@gmail.com</ul>
-                    <ul><AiFillEdit /> Or send me a message below!</ul>
+                    <ul><BsTwitter /> @timmydolan14 </ul>
+                    <ul><ImInstagram /> @timmydolan </ul>
+                    {/* <ul><AiFillEdit /> Or send me a message below!</ul> */}
                 </p>
             </div>
-            <div>
+            {/* <div>
                 <form className='form'>
                     <div className="form-name mb-3">
                         <label htmlFor="nameFormControlInput">Name</label>
@@ -62,7 +69,7 @@ export default function Contact() {
                         </div>
                     )}
                 </form>
-            </div>
+            </div> */}
         </section>
     );
 }

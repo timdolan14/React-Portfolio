@@ -6,7 +6,7 @@ export default function Resume() {
     return (
         <div className='res-page'>
             <h2>Want to Know More?</h2>
-            <p>Feel to check out my resume below!</p>
+            <p>Check out my resume below!</p>
             <a href={resume} Download={resume} class="res-btn btn btn-primary btn-lg active" role="button" aria-pressed="true" id='res-btn'>Download My Resume</a>
             <div className='profs'>
                 <div class="flex-container">
