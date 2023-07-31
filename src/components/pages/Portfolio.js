@@ -3,7 +3,6 @@ import { BsGithub } from "react-icons/bs";
 import { CgWebsite } from "react-icons/cg";
 import RR from '../../photos/RR Screenshot.jpeg';
 import PW from '../../photos/pw.png';
-import FS from '../../photos/full-snack.png';
 import Planner from '../../photos/DP.png';
 import Weather from '../../photos/weather-app.png';
 import TXD from '../../photos/TXD.png';
@@ -20,41 +19,40 @@ export default function Portfolio() {
                             <img src={RR} alt="R&R" />
                             <div class="imgInfoContainer">
                                 <h4 id="proj-1">Restaurants & Recipes <a href="https://timdolan14.github.io/Restaurants-and-Recipes/"><CgWebsite /></a> <a href="https://github.com/timdolan14/Restaurants-and-Recipes"><BsGithub /> </a> </h4>
-                                <p></p>
-                            </div>
-                        </div>
-                        <div id="proj-2">
-                            <img src={FS} alt="FS" />
-                            <div class="imgInfoContainer">
-                                <h4 id="proj-4">Full-Snack Wellness App <a href="https://gt-wellness-app.herokuapp.com/"><CgWebsite /></a> <a href="https://github.com/timdolan14/Wellness-App"><BsGithub /> </a> </h4>
-                                <p></p>
+                                <p>Discover your perfect dining experience or culinary adventure! Our website lets you explore restaurants and recipes tailored to your favorite food groups with ease.</p>
+                                <p>This app utilizes HTML, CSS, JavaScript, Bootstrap and API callouts.</p>
                             </div>
                         </div>
                         <div id="proj-3">
                             <img src={TXD} alt="TXD" />
                             <div class="imgInfoContainer">
                                 <h4 id="proj-3">TXD <a href="https://txd-74be239d79ad.herokuapp.com/"><CgWebsite /></a> <a href="https://github.com/timdolan14/TXD"><BsGithub /> </a> </h4>
-                                <p></p>
+                                <p>Connect with your community like never before! Our innovative social media platform lets you post, view, and comment on local updates based on your location.</p>
+                                <p>This app utilizes MongoDB, Express, Node, React, CSS, JavaScript, Bootstrap, Bcrypt and Tailwind.</p>
                             </div>
                         </div>
                         <div id="proj-4">
                             <img src={Planner} alt="WDS" />
                             <div class="imgInfoContainer">
                                 <h4 id="proj-4">Day Planner <a href="https://timdolan14.github.io/Day-Planner/"><CgWebsite /></a> <a href="https://github.com/timdolan14/Day-Planner"><BsGithub /> </a> </h4>
-                                <p></p>
+                                <p>Stay on top of your weekly goals with ease! Our website empowers you to track activities, meals, and more, for a productive and organized week.</p>
+                                <p>This app utilizes HTML, CSS and JavaScript.</p>
                             </div>
                         </div>
                            <div id="proj-5">
                             <img src={Weather} alt="WA" />
                             <div class="imgInfoContainer">
                                 <h4 id="proj-5">Weather App <a href="https://timdolan14.github.io/Weather-App/"><CgWebsite /></a> <a href="https://github.com/timdolan14/Weather-App"><BsGithub /> </a> </h4>
-                                <p></p>
+                                <p>Plan your travels with confidence! Our website offers real-time and 5-day weather forecasts for any city worldwide, helping you stay prepared for your adventures.</p>
+                                <p>This app utilizes HTML, CSS, JavaScript, Bootstrap and API callouts.</p>
                             </div>
                         </div>
                            <div id="proj-6">
                            <img src={PW} alt="PW" />
                             <div class="imgInfoContainer">
                                 <h4 id="proj-6">Password Generator <a href="https://timdolan14.github.io/Password_Gen/"><CgWebsite /></a> <a href="https://github.com/timdolan14/Password_Gen"><BsGithub /> </a> </h4>
+                                <p>Generate secure passwords effortlessly! Our website lets you customize length, include Uppercase, Lowercase, and special characters for strong, randomized password creation.</p>
+                                <p>This app utilizes HTML, CSS and JavaScript.</p>
                             </div>
                         </div>
                     </div>
