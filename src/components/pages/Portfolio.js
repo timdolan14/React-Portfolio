@@ -26,7 +26,7 @@ export default function Portfolio() {
                         <div id="proj-3">
                             <img src={TXD} alt="TXD" />
                             <div class="imgInfoContainer">
-                                <h4 id="proj-3">TXD <a href="https://txd-74be239d79ad.herokuapp.com/"><CgWebsite /></a> <a href="https://github.com/timdolan14/TXD"><BsGithub /> </a> </h4>
+                                <h4 id="proj-3">TXD <a href="https://github.com/timdolan14/TXD"><BsGithub /> </a> </h4>
                                 <p>Connect with your community like never before! Our innovative social media platform lets you post, view, and comment on local updates based on your location.</p>
                                 <p>This app utilizes MongoDB, Express, Node, React, CSS, JavaScript, Bootstrap, Bcrypt and Tailwind.</p>
                             </div>

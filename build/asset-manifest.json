@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.92151868.css",
-    "main.js": "/React-Portfolio/static/js/main.10d5790f.js",
-    "static/media/full-snack.png": "/React-Portfolio/static/media/full-snack.e465eb863833656b3c21.png",
+    "main.js": "/React-Portfolio/static/js/main.93103273.js",
     "static/media/RR Screenshot.jpeg": "/React-Portfolio/static/media/RR Screenshot.5372d750b9106542acd5.jpeg",
     "static/media/Tim Dolan 2023.jpg": "/React-Portfolio/static/media/Tim Dolan 2023.09e0f80be8c07d231b9d.jpg",
     "static/media/propic.png": "/React-Portfolio/static/media/propic.be8d3d903f9e7d4bef92.png",
@@ -12,10 +11,10 @@
     "static/media/pw.png": "/React-Portfolio/static/media/pw.c5c48197a5ae175d8ca8.png",
     "index.html": "/React-Portfolio/index.html",
     "main.92151868.css.map": "/React-Portfolio/static/css/main.92151868.css.map",
-    "main.10d5790f.js.map": "/React-Portfolio/static/js/main.10d5790f.js.map"
+    "main.93103273.js.map": "/React-Portfolio/static/js/main.93103273.js.map"
   },
   "entrypoints": [
     "static/css/main.92151868.css",
-    "static/js/main.10d5790f.js"
+    "static/js/main.93103273.js"
   ]
 }
