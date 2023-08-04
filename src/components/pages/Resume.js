@@ -17,6 +17,8 @@ export default function Resume() {
                             <ul><HiChevronRight />CSS</ul>
                             <ul><HiChevronRight />Bootstrap</ul>
                             <ul><HiChevronRight />React</ul>
+                            <ul><HiChevronRight />jQuery</ul>
+                            <ul><HiChevronRight />Tailwind CSS</ul>
                         </p>
                     </div>
                     <div class="flex-child green">
