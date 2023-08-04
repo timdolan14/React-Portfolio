@@ -143,6 +143,10 @@ form input {
 .profs {
     text-align: left;
     padding-top: 3%;
+    flex-wrap: wrap;
+    display: grid;
+    width: 60%;
+    margin-left: 20%;
 }
 
 .profs h4 {
@@ -168,6 +172,7 @@ form input {
     flex: 1;
     border: 2px solid black;
     filter: drop-shadow(0 0 0.17rem black);
+    align-items: center;
 }
 
 .flex-child:first-child {
@@ -187,12 +192,12 @@ footer {
 /* Media Query for smaller viewports */
 @media screen and (max-width: 600px) {
     .imgGrid {
-      grid-template-columns: 1fr;
-      padding-left: 0;
+        grid-template-columns: 1fr;
+        padding-left: 0;
     }
-  
+
     .imgGrid img {
-      height: auto;
-      width: 100%;
+        height: auto;
+        width: 100%;
     }
-  }
+}
