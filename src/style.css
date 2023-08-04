@@ -146,7 +146,7 @@ form input {
     flex-wrap: wrap;
     display: grid;
     width: 60%;
-    margin-left: 20%;
+    margin: auto;
 }
 
 .profs h4 {
@@ -166,9 +166,11 @@ form input {
 
 .flex-container {
     display: flex;
+    justify-content: center;
 }
 
 .flex-child {
+    flex-direction: column; 
     flex: 1;
     border: 2px solid black;
     filter: drop-shadow(0 0 0.17rem black);
