@@ -12,7 +12,7 @@ export default function Home() {
                 <p>
                     I am a highly skilled Full Stack Web Developer with a diverse background in the strategy and operations consulting industry. With my combined expertise in web development and problem-solving, I have consistently delivered outstanding results and driven business achievements.
 
-                    Throughout my career, I have developed a strong proficiency in creating dynamic and user-friendly web applications. With expertise in front-end development utilizing technologies such as React, HTML, and CSS, as well as back-end programming using frameworks like Javascript, Node.js, Express, and Mongoose, I possess a comprehensive understanding of the complete web development stack.
+                    Throughout my career, I have developed a strong proficiency in creating dynamic and user-friendly web applications. With expertise in front-end development utilizing technologies such as React, HTML, and CSS, as well as back-end programming using frameworks like Javascript, Node.js, Express, and MongoDB, I possess a comprehensive understanding of the complete web development stack.
                 </p>
                 <p>
                     In addition to my previous work experience, my experience as a collegiate athlete has equipped me with excellent communication and collaboration skills, allowing me to effectively work within cross-functional teams and translate complex technical concepts into clear, concise language for all team members.

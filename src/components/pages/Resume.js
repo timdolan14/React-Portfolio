@@ -24,10 +24,9 @@ export default function Resume() {
                         <p>
                             <ul><HiChevronRight />JavaScript</ul>
                             <ul><HiChevronRight />SQL</ul>
+                            <ul><HiChevronRight />NoSQL</ul>
                             <ul><HiChevronRight />MERN Stack</ul>
                             <ul><HiChevronRight />GraphQL</ul>
-                            <ul><HiChevronRight />Sequelize</ul>
-                            <ul><HiChevronRight />Mongoose</ul>
                             <ul><HiChevronRight />MongoDB</ul>
                             <ul><HiChevronRight />State</ul>
                         </p>
