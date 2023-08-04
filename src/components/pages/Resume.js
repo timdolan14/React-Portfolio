@@ -9,7 +9,7 @@ export default function Resume() {
             <p>Check out my resume below!</p>
             <a href={resume} download={resume} class="res-btn btn btn-primary btn-lg active" role="button" aria-pressed="true" id='res-btn'>Download My Resume</a>
             <div className='profs'>
-                <div class="flex-container">
+                <div class="flex-container container-sm">
                     <div class="flex-child green">
                         <h4>Front End Proficiencies</h4>
                         <p>

@@ -97,7 +97,9 @@ footer {
 
 .my-ci p {
     color: black;
-    font-size: 17px;
+    font-size: 20px;
+    padding-top: 1%;
+
 }
 
 .form-name,
@@ -145,13 +147,12 @@ form input {
     padding-top: 3%;
     flex-wrap: wrap;
     display: grid;
-    width: 60%;
-    margin: auto;
+    width: 100%;
 }
 
 .profs h4 {
     color: white;
-    font-size: 25px;
+    font-size: 22px;
     padding-left: 1%;
     padding: 1% 0 1% 0;
     text-align: center;
@@ -174,7 +175,6 @@ form input {
     flex: 1;
     border: 2px solid black;
     filter: drop-shadow(0 0 0.17rem black);
-    align-items: center;
 }
 
 .flex-child:first-child {
