@@ -30,7 +30,6 @@ export default function Resume() {
                             <ul><HiChevronRight />MERN Stack</ul>
                             <ul><HiChevronRight />GraphQL</ul>
                             <ul><HiChevronRight />MongoDB</ul>
-                            <ul><HiChevronRight />State</ul>
                         </p>
                     </div>
                 </div>

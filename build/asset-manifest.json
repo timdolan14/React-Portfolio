@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.97359577.css",
-    "main.js": "/React-Portfolio/static/js/main.20206374.js",
+    "main.css": "/React-Portfolio/static/css/main.98fb1369.css",
+    "main.js": "/React-Portfolio/static/js/main.91ca587f.js",
     "static/media/Tim Dolan Resume - 2023-1.jpg": "/React-Portfolio/static/media/Tim Dolan Resume - 2023-1.8853b0537813bc6580e5.jpg",
     "static/media/RR Screenshot.jpeg": "/React-Portfolio/static/media/RR Screenshot.5372d750b9106542acd5.jpeg",
     "static/media/propic.png": "/React-Portfolio/static/media/propic.be8d3d903f9e7d4bef92.png",
@@ -10,11 +10,11 @@
     "static/media/weather-app.png": "/React-Portfolio/static/media/weather-app.0a459a21c856ad534fc9.png",
     "static/media/pw.png": "/React-Portfolio/static/media/pw.c5c48197a5ae175d8ca8.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.97359577.css.map": "/React-Portfolio/static/css/main.97359577.css.map",
-    "main.20206374.js.map": "/React-Portfolio/static/js/main.20206374.js.map"
+    "main.98fb1369.css.map": "/React-Portfolio/static/css/main.98fb1369.css.map",
+    "main.91ca587f.js.map": "/React-Portfolio/static/js/main.91ca587f.js.map"
   },
   "entrypoints": [
-    "static/css/main.97359577.css",
-    "static/js/main.20206374.js"
+    "static/css/main.98fb1369.css",
+    "static/js/main.91ca587f.js"
   ]
 }
