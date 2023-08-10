@@ -6,6 +6,7 @@ import PW from '../../photos/pw.png';
 import Planner from '../../photos/DP.png';
 import Weather from '../../photos/weather-app.png';
 import TXD from '../../photos/TXD.png';
+import Budget from '../../photos/Budget.png'
 
 
 export default function Portfolio() {
@@ -39,7 +40,7 @@ export default function Portfolio() {
                                 <p>This app utilizes HTML, CSS and JavaScript.</p>
                             </div>
                         </div>
-                           <div id="proj-5">
+                        <div id="proj-5">
                             <img src={Weather} alt="WA" />
                             <div class="imgInfoContainer">
                                 <h4 id="proj-5">Weather App <a href="https://timdolan14.github.io/Weather-App/"><CgWebsite /></a> <a href="https://github.com/timdolan14/Weather-App"><BsGithub /> </a> </h4>
@@ -47,12 +48,20 @@ export default function Portfolio() {
                                 <p>This app utilizes HTML, CSS, JavaScript, Bootstrap and API callouts.</p>
                             </div>
                         </div>
-                           <div id="proj-6">
-                           <img src={PW} alt="PW" />
+                        <div id="proj-6">
+                            <img src={PW} alt="PW" />
                             <div class="imgInfoContainer">
                                 <h4 id="proj-6">Password Generator <a href="https://timdolan14.github.io/Password_Gen/"><CgWebsite /></a> <a href="https://github.com/timdolan14/Password_Gen"><BsGithub /> </a> </h4>
                                 <p>Generate secure passwords effortlessly! Our website lets you customize length, include Uppercase, Lowercase, and special characters for strong, randomized password creation.</p>
                                 <p>This app utilizes HTML, CSS and JavaScript.</p>
+                            </div>
+                        </div>
+                        <div id="proj-7">
+                            <img src={Budget} alt="Budget" />
+                            <div class="imgInfoContainer">
+                                <h4 id="proj-7">Budget Tracker <a href="https://timdolan14.github.io/Budget-App/"><CgWebsite /></a> <a href="https://github.com/timdolan14/Budget-App"><BsGithub /> </a> </h4>
+                                <p>The Budget Tracker App is a user-friendly tool designed to help companies efficiently manage and track budgets across various departments. This app provides a centralized platform for budget planning and monitoring, enabling businesses to make informed financial decisions and achieve their strategic goals.</p>
+                                <p>This app utilizes React and JavaScript. </p>
                             </div>
                         </div>
                     </div>
