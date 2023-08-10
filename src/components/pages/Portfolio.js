@@ -61,7 +61,7 @@ export default function Portfolio() {
                             <div class="imgInfoContainer">
                                 <h4 id="proj-7">Budget Tracker <a href="https://timdolan14.github.io/Budget-App/"><CgWebsite /></a> <a href="https://github.com/timdolan14/Budget-App"><BsGithub /> </a> </h4>
                                 <p>The Budget Tracker App is a user-friendly tool designed to help companies efficiently manage and track budgets across various departments. This app provides a centralized platform for budget planning and monitoring, enabling businesses to make informed financial decisions and achieve their strategic goals.</p>
-                                <p>This app utilizes React, CSS and JavaScript. </p>
+                                <p>This app utilizes React, Bootstrap, CSS and JavaScript. </p>
                             </div>
                         </div>
                     </div>
