@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../../photos/Tim Dolan Resume - 2023-1.jpg'
+import resume from '../../photos/Tim Dolan Resume - 2023.jpg'
 import { HiChevronRight } from "react-icons/hi";
 
 export default function Resume() {
