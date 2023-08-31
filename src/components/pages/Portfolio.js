@@ -7,6 +7,7 @@ import Planner from '../../photos/DP.png';
 import Weather from '../../photos/weather-app.png';
 import TXD from '../../photos/TXD.png';
 import Budget from '../../photos/Budget.png'
+import StyleTrack from '../../photos/StyleTrack.png'
 
 
 export default function Portfolio() {
@@ -61,6 +62,14 @@ export default function Portfolio() {
                             <div class="imgInfoContainer">
                                 <h4 id="proj-7">Budget Tracker <a href="https://timdolan14.github.io/Budget-App/"><CgWebsite /></a> <a href="https://github.com/timdolan14/Budget-App"><BsGithub /> </a> </h4>
                                 <p>The Budget Tracker App is a user-friendly tool designed to help companies efficiently manage and track budgets across various departments. This app provides a centralized platform for budget planning and monitoring, enabling businesses to make informed financial decisions and achieve their strategic goals.</p>
+                                <p>This app utilizes React, Bootstrap, CSS and JavaScript. </p>
+                            </div>
+                        </div>
+                        <div id="proj-8">
+                            <img src={StyleTrack} alt="StyleTrack" />
+                            <div class="imgInfoContainer">
+                                <h4 id="proj-8">StyleTrack <a href="https://timdolan14.github.io/StyleTrack/"><CgWebsite /></a> <a href="https://github.com/timdolan14/StyleTrack"><BsGithub /> </a> </h4>
+                                <p>StyleTrack is the ultimate fashion app for effortlessly tracking and managing your clothing and accessory purchases, helping you track and organize your wardrobe with ease.</p>
                                 <p>This app utilizes React, Bootstrap, CSS and JavaScript. </p>
                             </div>
                         </div>
