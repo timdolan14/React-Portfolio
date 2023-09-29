@@ -17,14 +17,14 @@ export default function Portfolio() {
             <section class="Work">
                 <section id="Work" class="Work-Objects">
                     <div class="imgGrid">
-                        <div id="proj-1">
+                        {/* <div id="proj-1">
                             <img src={RR} alt="R&R" />
                             <div class="imgInfoContainer">
                                 <h4 id="proj-1">Restaurants & Recipes <a href="https://timdolan14.github.io/Restaurants-and-Recipes/"><CgWebsite /></a> <a href="https://github.com/timdolan14/Restaurants-and-Recipes"><BsGithub /> </a> </h4>
                                 <p>Discover your perfect dining experience or culinary adventure! Our website lets you explore restaurants and recipes tailored to your favorite food groups with ease.</p>
                                 <p>This app utilizes HTML, CSS, JavaScript, Bootstrap and API callouts.</p>
                             </div>
-                        </div>
+                        </div> */}
                         <div id="proj-3">
                             <img src={TXD} alt="TXD" />
                             <div class="imgInfoContainer">
