@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AiFillPhone, AiFillEdit } from "react-icons/ai";
+import { AiFillPhone } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
 import { BsTwitter } from "react-icons/bs";
 import { ImInstagram, ImLocation2 } from "react-icons/im";
